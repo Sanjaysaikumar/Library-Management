@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management System</title>
+  </head>
+  <body bgcolor="skyblue"> 
+    <h1 font size =""  >Library Management System </h1><hr>
+
+    <article>
+        <form action="/submit" method="get" target="_blank">
+            <label for="Books">Books Search:</label>
+            <select name="Documents" id="Documents..">
+            
+            <datalist id="Required Documents">
+        
+            <option value="DBMS BOOK">DBMS</option>
+            <option value="CN">Computer Networks</option>
+            <option value="DAA">Design and analysis of algorithm</option>
+            <option value="HTML">HTML</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="Others">other</option>
+            <input type="submit" value="Submit"/>
+           </optgroup>
+           </datalist>
+    </select>
+    </article>
+</form>
+        
+        
+<p>
+    <h2> <font color="green">Available Books: </font></h2>
+    <ul>
+      <li>DBMS</li>
+      <li>CN</li>
+      <li>DAA</li>
+      <li>HTML</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>Others</li>
+      
+    </ul>
+
+    <h2>Borrowed Books:</h2>
+    <ul>
+        <li>Operating System</li>
+        <li>Networks</li>
+        <li>Artificial Intellegence</li>
+        <li>Robotics</li>
+        <li>C language</li>
+        <li>Python</li>
+        <li>Others</li>
+    </ul>
+
+    <form action="/borrow" method="post">
+      <label for="bookId">Enter Book ID to Borrow:</label>
+      <select name="Documents" id="Documents..">
+            
+        <datalist id="Required Documents">
+    
+        <option value="DBMS BOOK">Os</option>
+        <option value="CN">Computer Networks</option>
+        <option value="DAA">Design and analysis of algorithm</option>
+        <option value="HTML">HTML</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+        <option value="Others">other</option>
+        <input type="submit" value="Submit"/>
+       </optgroup>
+       </datalist>
+</select>
+</article>
+    </form>
+
+    <footer>
+      <p>&copy; 2023 Library Management System</p>
+    </footer>
+  </body>
+</html>

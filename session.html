@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="3534124.png">
+</head>
+<header>
+<h1>Please Fill The Details Carefully....!!!</h1>
+</header>
+<body>
+
+    <div class="container">
+        <form action="https:httpbin.org/get" method="get">
+       <fieldset>
+
+             <legend>Registration info</legend>
+            
+         <h2>Registration Form <hr></h2>
+            
+        <h3> <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" placeholder="fullname" id="fullname" name="fullname" required></p>
+         <p>
+            <label for="email">Email:</label>
+            <input type="email"  placeholder="email" id="email" name="email" required></p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="password" id="password" name="password" required></p>
+         <p>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" placeholder="password" id="confirm-password" name="confirm-password" required></p>
+            <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" placeholder="dob" id="dob" name="dob" required></p>
+          <p> <label for="phone number"> phone number:</label>
+            <input type="mobileno:" placeholder="phone number"></p>
+
+        <p>
+            <label for="decade">Decade:</label>
+            <input 
+            type="number"
+            placeholder="decade" 
+            name="decade"
+             id="decade " 
+             min="2000"
+             max="3000"
+             step="50"
+             value="2500"></p>
+             <article>
+             <p>
+                <label for="Documents">Required Documents</label>
+                <select name="Documents" id="Documents..">
+                <optgroup label="Required">
+                <datalist id="Required Documents">
+            
+                <option value="Valid Proofs">Valid Documents</option>
+                <option value="Aadhar card">Aaadhar card</option>
+                <option value="Pan card">pancard</option>
+                </optgroup>
+                <optgroup label=" UnRequired"></optgroup>
+                <option value="Driving lience">Licence</option>
+                <option value="Rationcard">ration</option>
+                <option value="Marks memos">memos</option>
+                <option value="Others">other</option>
+               </optgroup>
+               </datalist>
+        
+             </p>
+             </select>
+             </article>
+         
+        <p>
+        
+           <label for="gender">Gender:</label>
+           <input type="radio" placeholder="male"><label for="male">male</label>
+            <label for="female"></label>
+            <input type="radio"/><label for="female">female</label>
+            <label for="others"></label>
+            <input type="radio"/><label for="others">others</label>  </h3>
+
+        </p> <hr>
+
+         <fieldset>
+               <legend>Which course Do You Want...?</legend>
+               <h3> <p>
+                    <input type="radio" name="Course" id="Python" value="Python">
+                    <label for="Python">Python</label>
+                </p>
+                <p>
+                    <input type="radio" name="Course" id="Java" value="java">
+                    <label for="java">java</label>
+                </p>
+                <p>
+                    <input type="radio" name="Course" id="sql" value="sql">
+                    <label for="sql">sql</label>
+                </p> 
+                   <p>  
+                       <input type="radio" name="Course" id="others" value="others">
+                      <label for="others">others</label></p>
+            </h3>
+        </fieldset>
+        <br>
+           <fieldset>
+              <legend>Write Your Self...</legend>
+             <h3> <label for="Self Details">Self Details</label></h3>
+              <br/>
+              <textarea name="Self" id="Self" cols="30" rows="10" placeholder="Type your own Hand writing...."></textarea>
+           </fieldset>
+           
+
+<h3><p><input type="checkbox"> <label for="Accept Terms and conditions"> Accept terms and conditions
+</label> </p></h3>
+  
+
+
+            <p>
+                <button type="submit">Register</button> 
+                <button type="reset">Reset</button>
+                 <hr>
+            </p>
+
+    
+     
+         </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
